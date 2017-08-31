@@ -61,7 +61,7 @@ public class WholeNotification implements View.OnTouchListener
                 WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL |
                         WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS;
         //设置进入和退出动画
-        mWindowParams.windowAnimations = R.style.NotificationAnim;
+        mWindowParams.windowAnimations = R.style.WholeNotificationAnim;
         mWindowParams.x = 0;
         mWindowParams.y = -mStatusBarHeight;
 
