@@ -244,8 +244,8 @@ public class MeiZhuNotification implements View.OnTouchListener {
      * 自动隐藏通知
      */
     private void autoDismiss() {
-//        mHandler.removeMessages(HIDE_WINDOW);
-//        mHandler.sendEmptyMessageDelayed(HIDE_WINDOW, DISMISS_INTERVAL);
+        mHandler.removeMessages(HIDE_WINDOW);
+        mHandler.sendEmptyMessageDelayed(HIDE_WINDOW, DISMISS_INTERVAL);
     }
 
     /**
